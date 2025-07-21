@@ -1,0 +1,86 @@
+/* Make the whole page a flex container */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #eceff1; /* subtle background behind the card */
+}
+
+/* Container */
+.app-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading */
+.app-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+form input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+form button {
+  padding: 10px 18px;
+  background-color: #0077ff;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+form button:hover {
+  background-color: #0055cc;
+}
+
+/* Message list */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+li strong {
+  color: #333;
+}
+
+li em {
+  color: #777;
+  font-size: 0.85em;
+}
