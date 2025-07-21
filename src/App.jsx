@@ -125,9 +125,6 @@ return (
   <div className="app-container">
     <h1>Guestbook</h1>
     <p>Welcome, {user.email}</p>
-    <button onClick={handleLogout} className = "logout-btn" style={{ marginBottom: '10px' }}>
-      Logout
-    </button>
 
     <form onSubmit={handleSubmit} style={{ marginBottom: '20px' }}>
       <input
@@ -159,6 +156,11 @@ return (
         ))}
       </ul>
     )}
+
+    <button onClick={handleLogout} className="logout-btn">
+      Logout
+    </button>
+
   </div>
 );
 }
