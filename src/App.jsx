@@ -95,7 +95,7 @@ async function handleLogin(e) {
             onChange={(e) => setEmail(e.target.value)}
             style={{ marginRight: '10px' }}
           />
-          <button type="submit">Send Magic Link</button>
+          <button type="submit" className = "btn">Send Magic Link</button>
         </form>
       </div>
     );
@@ -125,7 +125,7 @@ return (
   <div className="app-container">
     <h1>Guestbook</h1>
     <p>Welcome, {user.email}</p>
-    <button onClick={handleLogout} style={{ marginBottom: '10px' }}>
+    <button onClick={handleLogout} className = "btn" style={{ marginBottom: '10px' }}>
       Logout
     </button>
 
@@ -144,7 +144,7 @@ return (
         onChange={(e) => setMessage(e.target.value)}
         style={{ marginRight: '10px' }}
       />
-      <button type="submit">Add Message</button>
+      <button type="submit" className = "btn">Add Message</button>
     </form>
 
     {data.length === 0 ? (

@@ -84,3 +84,36 @@ li em {
   color: #777;
   font-size: 0.85em;
 }
+
+/* Reusable button style */
+.btn {
+  padding: 10px 18px;
+  background-color: #0077ff;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #0055cc;
+}
+
+button {
+  padding: 10px 18px;
+  background-color: #0077ff;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0055cc;
+}
