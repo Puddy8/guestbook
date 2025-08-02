@@ -125,8 +125,10 @@ button:hover {
 
 /* Logout button styling */
 .logout-btn {
-  margin-top: auto;  /* Push the button to the bottom of the flex container */
-  padding: 10px 18px;
+  display: block;
+  margin: 20px auto 0 auto; /* center horizontally, space above */
+  width: 120px; /* same width as Add Message button */
+  padding: 10px 0;
   background-color: #999;
   color: white;
   font-weight: bold;
